@@ -19,6 +19,7 @@ Route::get('/', function () {
     return view('home', [
         'title' => 'Hello World',
         'text' => 'Ciao, questo il mio primo progetto Laravel',
+        'about' => '/about'
     ]);
 });
 
