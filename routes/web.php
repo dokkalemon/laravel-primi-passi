@@ -19,15 +19,13 @@ Route::get('/', function () {
     return view('home', [
         'title' => 'Hello World',
         'text' => 'Ciao, questo il mio primo progetto Laravel',
-        'about' => '/about'
     ]);
-});
+})->name('home');
 
 //HOME PAGE
 Route::get('about', function () {
     return view('about', [
         'aboutTitle' => 'Qui sono in about',
         'aboutText' => 'Ciao questa è la pagina about del mio primo progetto Laravel',
-        'home' => '/'
     ]);
-});
+})->name('about');

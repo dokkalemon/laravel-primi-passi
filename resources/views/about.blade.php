@@ -15,7 +15,7 @@
     <main>
         <h1>{{ $aboutTitle }}</h1>
         <p>{{ $aboutText }}</p>
-        <a href="{{ $home }}">Back</a>
+        <a href="{{ route('home') }}">Back</a>
     </main>
 
     
