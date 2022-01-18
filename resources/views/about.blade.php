@@ -9,12 +9,13 @@
 <body>
 
     <header>
-        <a href="">LOGO</a>
+        <a href="">Logo</a>
     </header>
 
     <main>
         <h1>{{ $aboutTitle }}</h1>
         <p>{{ $aboutText }}</p>
+        <a href="{{ $home }}">Back</a>
     </main>
 
     

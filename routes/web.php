@@ -28,5 +28,6 @@ Route::get('about', function () {
     return view('about', [
         'aboutTitle' => 'Qui sono in about',
         'aboutText' => 'Ciao questa è la pagina about del mio primo progetto Laravel',
+        'home' => '/'
     ]);
 });
